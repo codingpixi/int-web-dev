@@ -1,0 +1,14 @@
+body {
+    margin: 0;
+}
+.container {
+    display: flex;
+}
+
+.item {
+    flex: auto;
+}
+
+img {
+    max-width: 100%;
+}
