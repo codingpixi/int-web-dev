@@ -1,14 +1,114 @@
-body {
+/*
+COLOR PALETTE
+Pink #ffc0b5
+#ffa393
+#ff9582 75%
+*/
+
+* {
     margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
-.container {
+
+html {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+}
+
+body {
+    width: 100%;
+    height: 90vh;
     display: flex;
 }
 
+.container {
+    /*flex-wrap: wrap;
+    justify-content: center;
+    height: 95vh;
+    max-width: 1140px;
+    padding: 10px;
+    */
+    width: 100%;
+    max-width: 120rem;
+    margin: auto;
+    padding: 0 1.5rem;
+}
+
+/*
+h1 {
+    color: #ff9582;
+    font-weight: 400;
+}
+*/
+
+img {
+    width: 350px;
+    height: auto px;
+    margin: auto;
+}
+
+
+
+
+.img gallery {
+    width: 50%;
+    height: auto;
+}
+
+/*
 .item {
     flex: auto;
 }
 
-img {
-    max-width: 100%;
+.pinque {
+    background-color: #ffc0b5;
 }
+
+.dark-pinque {
+    background-color: #ff9582;
+}
+
+
+div {
+    background: #ff9582;
+    padding: 20px;
+}
+
+*/
+
+/*
+@media screen and (min-width: 780px) {
+    div {
+        background: blue;
+    }
+
+    .container {
+
+    }
+}
+
+@media screen and (min-width: 1200px) {
+
+}
+*/
+
+/*
+RECOMMENDED BREAK POINTS
+320px — 480px: Mobile devices
+481px — 768px: iPads, Tablets
+769px — 1024px: Small screens, laptops
+1025px — 1200px: Desktops, large screens
+1201px and more —  Extra large screens, TV
+*/
+
+/* 4 Types of @media
+all (or leave empty defaults to all) - for all screen sizes
+screen - desktop, tablets, and cell phones
+print - printers
+speech - screen readers
+
+(orientation: portrait)
+(orientation: landscape)
+
+*/
