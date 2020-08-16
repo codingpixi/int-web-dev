@@ -1,0 +1,22 @@
+/*BIG TABLET TO 1200PX: width smaller than the 1140px) */
+@media only screen and (max-width: 1200px) {
+
+}
+
+/*SMALL TABLET TO BIG TABLET: from 768px to 1023px */
+@media only screen and (max-width: 1023) {
+
+}
+
+
+/*SMALL PHONES TO SMALL TABLETS: from 481px to 767px */
+@media only screen and (max-width: 767px) {
+
+}
+
+/*
+SMALL PHONES: from 0 to 480px
+*/
+@media only screen and (max-width: 480px) {
+
+}
