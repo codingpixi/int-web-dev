@@ -5,130 +5,34 @@ Pink #ffc0b5
 #ff9582 75%
 */
 
-* {
-    margin: 0;
-    padding: 0;
+/*================================
+FLEXBOX
+================================== */
+
+.gallery-area {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px 0px 10px 0px;
 }
+
 
 .container {
     display: flex;
-    flex-direction: row;
     flex-wrap: wrap;
-    align-content: flex-start;
-    height: 100vh;
-    margin: 0 auto;
-    padding: 5%;
-    /*
+    justify-content: space-between;
+}
+
+.img-gallery {
+    display: flex;
     justify-content: center;
-    height: 50vh;
-    max-width: 1140px;
-    padding: 10px;
-    width: 100%;
-    max-width: 120rem;
-    margin: auto;
-    padding: 0 1.5rem;
-    */
-}
-
-img {
-    width: 100%;
-    height: auto;
-    vertical-align: middle;
-    padding: .25em;
-}
-
-.img1 { flex: 1.6120; }
-.img2 { flex: 1.5023; }
-.img3 { flex: 1.4953; }
-.img4 { flex: 1.5023; }
-.img5 { flex: 1.5023; }
-.img6 { flex: 1.5023; }
-.img7 { flex: 1.5023; }
-.img8 { flex: 1.5023; }
-
-/*
-img {
-    height: 25rem;
-    margin: auto;
-    position: relative;
-    
-}
-*/
-
-
-/*
-h1 {
-    color: #ff9582;
-    font-weight: 400;
-}
-*/
-
-/*
-.img gallery {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: auto;
-    grid-gap: 1.5rem;
-    width: 50%;
+    width: 25%;
     height: auto;
 }
-*/
 
-
-
-/*
-.item {
-    flex: auto;
+.photo {
+    width: 97%;
+    margin-top: 5px;
+    margin-bottom: 5px;
 }
-
-.pinque {
-    background-color: #ffc0b5;
-}
-
-.dark-pinque {
-    background-color: #ff9582;
-}
-
-
-div {
-    background: #ff9582;
-    padding: 20px;
-}
-
-*/
-
-/*
-@media screen and (min-width: 780px) {
-    div {
-        background: blue;
-    }
-
-    .container {
-
-    }
-}
-
-@media screen and (min-width: 1200px) {
-
-}
-*/
-
-/*
-RECOMMENDED BREAK POINTS
-320px — 480px: Mobile devices
-481px — 768px: iPads, Tablets
-769px — 1024px: Small screens, laptops
-1025px — 1200px: Desktops, large screens
-1201px and more —  Extra large screens, TV
-*/
-
-/* 4 Types of @media
-all (or leave empty defaults to all) - for all screen sizes
-screen - desktop, tablets, and cell phones
-print - printers
-speech - screen readers
-
-(orientation: portrait)
-(orientation: landscape)
-
-*/

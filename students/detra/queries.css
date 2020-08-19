@@ -4,19 +4,44 @@
 }
 
 /*SMALL TABLET TO BIG TABLET: from 768px to 1023px */
-@media only screen and (max-width: 1023) {
+@media only screen and (max-width: 1023px) {
 
 }
 
 
 /*SMALL PHONES TO SMALL TABLETS: from 481px to 767px */
 @media only screen and (max-width: 767px) {
-
+    .container {
+        /* flex-direction: column; */
+        
+    }
 }
 
 /*
 SMALL PHONES: from 0 to 480px
 */
 @media only screen and (max-width: 480px) {
-
+    .container {
+        width: 100%;
+    }
 }
+
+/*
+RECOMMENDED BREAK POINTS
+320px — 480px: Mobile devices
+481px — 768px: iPads, Tablets
+769px — 1024px: Small screens, laptops
+1025px — 1200px: Desktops, large screens
+1201px and more —  Extra large screens, TV
+*/
+
+/* 4 Types of @media
+all (or leave empty defaults to all) - for all screen sizes
+screen - desktop, tablets, and cell phones
+print - printers
+speech - screen readers
+
+(orientation: portrait)
+(orientation: landscape)
+
+*/
