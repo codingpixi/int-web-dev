@@ -5,8 +5,113 @@ Pink #ffc0b5
 #ff9582 75%
 */
 
+* {
+    margin: 0;
+}
+
+
+html {
+    color: #555;
+    font-family: 'Lato', 'Arial', sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    text-rendering: optimizeLegibility;
+}
+
+
+/* ----- HEADINGS -----*/
+h1,
+h2 {
+    font-weight: 300;
+    text-decoration: uppercase;
+    letter-spacing: 2px;
+}
+
+h1 {
+    margin-top: 0px;
+    margin-bottom: 20px;
+    color: #fff;
+    font-size: 400%;
+    word-spacing: 4px;
+}
+
+h2 {
+    font-size: 180%;
+    word-spacing: 2px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+/* ----- BUTTONS -----*/
+.btn:link,
+.btn:visited {
+    display: inline-block;
+    padding: 10px 30px;
+    font-weight: 300;
+    text-decoration: none;
+    border-radius: 200px;
+    transition: background-color 0.2s, border 0.2s, color 0.2s;
+}
+
+
+.btn-full:link,
+.btn-full:visited {
+    background-color: #ffc0b5;
+    border: 1px solid #ffc0b5;
+    color: #fff;
+    margin-right: 15px;
+}
+
+.btn-ghost:link,
+.btn-ghost:visited {
+    border: 1px solid #ffc0b5;
+    color: #ffc0b5;
+}
+
+.btn:hover,
+.btn:active {
+    background-color: #ff9582;
+}
+
+.btn-full:hover,
+.btn-full:active {
+    border: 1px solid #ff9582;
+}
+
+.btn-ghost:hover,
+.btn-ghost:active {
+    border: 1px solid #ff9582;
+    color: #fff;
+}
+
+/* --------------------------------------------------------- */
+/*  HEADER  */
+/* --------------------------------------------------------- */
+
+header {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7) ), url(img/hero.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+.hero-text-box {
+    position: absolute;
+    width: 1140px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.ds-logo {
+    height: 50px;
+    width: 100%;
+    float: left;
+    margin-top: 20px;
+}
+
 /*================================
-FLEXBOX
+PHOTO GALLERY
 ================================== */
 
 .gallery-area {
@@ -14,7 +119,8 @@ FLEXBOX
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 30px 0px 10px 0px;
+    padding: 50px 0px 10px 0px;
+    background: rgba(0, 0, 0, 0.02);
 }
 
 
@@ -36,3 +142,5 @@ FLEXBOX
     margin-top: 5px;
     margin-bottom: 5px;
 }
+
+
