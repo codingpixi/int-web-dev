@@ -95,20 +95,31 @@ header {
     height: 100vh;
 }
 
-.hero-text-box {
-    position: absolute;
-    width: 1140px;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
-
 .ds-logo {
     height: 50px;
     width: 100%;
     float: left;
     margin-top: 20px;
 }
+
+.hero-text-box {
+    position: absolute;
+    width: 1300px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.week-num {
+    margin-top: -25px;
+    margin-bottom: 20px;
+    color: #fff;
+    font-size: 200%;
+    font-weight: 100;
+    word-spacing: 1px;
+}
+
+
 
 /*================================
 PHOTO GALLERY
